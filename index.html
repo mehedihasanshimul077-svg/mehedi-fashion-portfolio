@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Md. Mehedi Hasan — Fashion Designer</title>
+  <meta name="description" content="Portfolio of Md. Mehedi Hasan — Fashion Design & Technology graduate focused on apparel, streetwear, textile exploration and digital fashion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+:root{
+  --black:#101010; --cream:#f5f1ea; --paper:#faf8f4; --gray:#77736d;
+  --line:#d9d3ca; --white:#fff; --accent:#a56a52;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--black);font-family:"DM Sans",Arial,sans-serif;line-height:1.6}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;z-index:100;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E")}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{width:min(1180px,91vw);margin:auto}
+header{position:fixed;z-index:50;top:0;left:0;right:0;background:rgba(245,241,234,.82);backdrop-filter:blur(16px);border-bottom:1px solid rgba(16,16,16,.08)}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:"Playfair Display",serif;font-size:1.08rem;letter-spacing:.13em;font-weight:700}
+.links{display:flex;gap:30px;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase}
+.links a{position:relative}.links a:after{content:"";position:absolute;left:0;bottom:-7px;width:0;height:1px;background:var(--black);transition:.3s}.links a:hover:after{width:100%}
+.hero{min-height:100vh;padding:150px 0 90px;display:grid;grid-template-columns:1.02fr .98fr;gap:70px;align-items:center}
+.eyebrow{font-size:.68rem;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-family:"Playfair Display",serif;font-size:clamp(4rem,8vw,8.4rem);line-height:.83;margin:18px 0 30px;font-weight:600;letter-spacing:-.045em}
+.hero p{max-width:570px;font-size:1rem;color:var(--gray)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{padding:13px 21px;border:1px solid var(--black);font-weight:600;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;transition:.25s}
+.btn.primary{background:var(--black);color:white}.btn:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(0,0,0,.1)}
+.hero-art{position:relative;min-height:610px;display:grid;place-items:center}
+.hero-art:before{content:"";position:absolute;inset:20px 5px 20px 80px;border:1px solid var(--line)}
+.hero-art:after{content:"FASHION DESIGN / 2026";position:absolute;right:-12px;bottom:38px;writing-mode:vertical-rl;letter-spacing:.22em;font-size:.58rem;color:var(--gray)}
+.hero-art img{position:relative;width:76%;height:600px;object-fit:cover;object-position:center;box-shadow:22px 22px 0 rgba(16,16,16,.045)}
+section{padding:115px 0}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:45px}
+.section-head h2{font-family:"Playfair Display",serif;font-size:clamp(2.7rem,5vw,4.7rem);line-height:.9;margin:7px 0 0;letter-spacing:-.03em}
+.section-head p{max-width:500px;color:var(--gray);margin:0}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:85px;border-top:1px solid var(--line)}
+.about h3{font-family:"Playfair Display",serif;font-size:2.4rem;line-height:1.05;margin-top:0}
+.about p{font-size:1.02rem}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:25px;margin-top:35px}
+.fact{border-top:1px solid var(--line);padding-top:12px}.fact b{display:block;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gray);margin-bottom:5px}
+.skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}.chip{padding:8px 12px;border:1px solid var(--line);background:rgba(255,255,255,.28);font-size:.78rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--white);overflow:hidden;border:1px solid var(--line);cursor:pointer;position:relative}
+.card:nth-child(3n+2){margin-top:55px}.card img{width:100%;aspect-ratio:4/5;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1);filter:saturate(.92)}
+.card:hover img{transform:scale(1.045);filter:saturate(1)}
+.card-body{padding:18px 18px 20px}.card-body h3{margin:0 0 4px;font-family:"Playfair Display",serif;font-size:1.35rem}.card-body p{margin:0;color:var(--gray);font-size:.78rem;letter-spacing:.02em}
+.process{background:#e8e2d8}.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--black);border:1px solid var(--black)}
+.step{padding:30px;background:#eee9e1;min-height:220px}.step span{font-family:"Playfair Display",serif;font-size:2.4rem;color:var(--accent)}.step h3{margin:12px 0 7px;font-family:"Playfair Display",serif;font-size:1.5rem}.step p{margin:0;color:var(--gray);font-size:.86rem}
+.contact{background:var(--black);color:white}.contact .eyebrow{color:#c68b72}.contact .muted{color:#aaa}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.contact h2{font-family:"Playfair Display",serif;font-size:clamp(3.5rem,7vw,6.5rem);line-height:.85;margin:10px 0 25px;letter-spacing:-.04em}
+.contact-list{display:grid;gap:18px;align-content:center}.contact-item{border-bottom:1px solid #3c3c3c;padding-bottom:13px}.contact-item b{display:block;font-size:.65rem;letter-spacing:.17em;text-transform:uppercase;color:#888;margin-bottom:4px}
+footer{padding:30px 0;background:#090909;color:#777;font-size:.75rem;letter-spacing:.05em}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;align-items:center;justify-content:center;padding:25px;z-index:80}.modal.open{display:flex}.modal-inner{max-width:1100px;width:100%;max-height:92vh;position:relative}.modal img{max-height:80vh;width:auto;margin:auto;object-fit:contain}.modal-info{color:white;text-align:center;margin-top:12px;font-size:.8rem;letter-spacing:.06em}.close{position:absolute;right:0;top:-43px;color:white;background:none;border:0;font-size:30px;cursor:pointer}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}.reveal.visible{opacity:1;transform:none}
+@media(max-width:850px){
+ .links{display:none}.hero,.about,.contact-grid{grid-template-columns:1fr}.hero{padding-top:125px}.hero-art{min-height:470px}.hero-art img{height:455px}.hero-art:before{left:35px}.grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:560px){
+ section{padding:75px 0}.section-head{display:block}.section-head p{margin-top:17px}.grid,.process-grid,.facts{grid-template-columns:1fr}.card:nth-child(3n+2){margin-top:0}.hero-art{min-height:390px}.hero-art img{height:375px}.contact h2{font-size:3.5rem}.contact-grid{gap:40px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#top">MEHEDI HASAN</a>
+      <div class="links">
+        <a href="#about">About</a><a href="#work">Work</a><a href="#process">Process</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <div>
+      <div class="eyebrow">Fashion Design & Technology</div>
+      <h1>Ideas into<br>wearable form.</h1>
+      <p>Md. Mehedi Hasan is a fashion design graduate with a strong interest in apparel design, streetwear, fabric exploration, digital illustration and sustainable fashion.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">Explore portfolio</a>
+        <a class="btn" href="MD-Mehedi-Hasan-CV.pdf" target="_blank">View CV</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="assets/page-05.jpg" alt="Fashion portfolio artwork">
+    </div>
+  </section>
+
+  <section id="about" class="wrap about reveal">
+    <div>
+      <div class="eyebrow">Profile</div>
+      <h3>Creative, technical & curious.</h3>
+    </div>
+    <div>
+      <p>My name is Md. Mehedi Hasan. I hold a four-year B.Sc. (Honours) degree in Fashion Design and Technology from Sonargaon University. My portfolio brings together fashion illustration, product development, draping, textile printing, embroidery, color study and E-Fashion work.</p>
+      <div class="facts">
+        <div class="fact"><b>Focus</b>Apparel · Streetwear · Textile</div>
+        <div class="fact"><b>Education</b>B.Sc. Fashion Design & Technology</div>
+        <div class="fact"><b>Strengths</b>Design · Trend awareness · Technical skills</div>
+        <div class="fact"><b>Approach</b>Innovative · Functional · Sustainable</div>
+      </div>
+      <div class="skills">
+        <span class="chip">Digital Illustration</span><span class="chip">Draping</span><span class="chip">Product Development</span>
+        <span class="chip">Block Printing</span><span class="chip">Tie-Dye</span><span class="chip">Ribbon Embroidery</span>
+        <span class="chip">Zardozi</span><span class="chip">Color Theory</span><span class="chip">E-Fashion</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="wrap reveal">
+    <div class="section-head">
+      <div><div class="eyebrow">Selected work</div><h2>Portfolio</h2></div>
+      <p>Selected pages from the supplied fashion portfolio, presented as a clean visual archive. Click any project to view it larger.</p>
+    </div>
+    <div class="grid" id="gallery"></div>
+  </section>
+
+  <section id="process" class="process reveal">
+    <div class="wrap">
+      <div class="section-head">
+        <div><div class="eyebrow">Practice</div><h2>Design process</h2></div>
+        <p>A concise view of the skills represented across the portfolio.</p>
+      </div>
+      <div class="process-grid">
+        <div class="step"><span>01</span><h3>Research</h3><p>Mood boards, inspiration, trend awareness and color direction.</p></div>
+        <div class="step"><span>02</span><h3>Develop</h3><p>Silhouettes, product ideas, prints, motifs and digital concepts.</p></div>
+        <div class="step"><span>03</span><h3>Construct</h3><p>Draping, hand stitches, block printing, dyeing and embroidery studies.</p></div>
+        <div class="step"><span>04</span><h3>Present</h3><p>Digital fashion work and professional portfolio presentation.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact reveal">
+    <div class="wrap contact-grid">
+      <div>
+        <div class="eyebrow">Let's connect</div>
+        <h2>Open to creative opportunities.</h2>
+        <p class="muted">Interested in fashion design, apparel development, textile exploration and forward-looking creative work.</p>
+      </div>
+      <div class="contact-list">
+        <div class="contact-item"><b>Name</b>Md. Mehedi Hasan</div>
+        <div class="contact-item"><b>Location</b>Dhaka, Bangladesh</div>
+        <div class="contact-item"><b>Education</b>Sonargaon University — Fashion Design & Technology</div>
+        <div class="contact-item"><b>CV</b><a href="MD-Mehedi-Hasan-CV.pdf" target="_blank">Open CV →</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© 2026 Md. Mehedi Hasan · Fashion Design Portfolio</div></footer>
+
+<div class="modal" id="modal">
+  <div class="modal-inner">
+    <button class="close" id="close">×</button>
+    <img id="modalImg" src="" alt="">
+    <div class="modal-info" id="modalInfo"></div>
+  </div>
+</div>
+
+<script>
+const items = [
+  {
+    "image": "assets/page-05.jpg",
+    "title": "Collection Concept",
+    "category": "Fashion illustration & styling",
+    "page": 5
+  },
+  {
+    "image": "assets/page-06.jpg",
+    "title": "Collection Line-up",
+    "category": "Silhouette development",
+    "page": 6
+  },
+  {
+    "image": "assets/page-07.jpg",
+    "title": "Mood & Inspiration",
+    "category": "Visual research board",
+    "page": 7
+  },
+  {
+    "image": "assets/page-08.jpg",
+    "title": "Menswear Studies",
+    "category": "Look development",
+    "page": 8
+  },
+  {
+    "image": "assets/page-09.jpg",
+    "title": "Menswear Variations",
+    "category": "Print and silhouette exploration",
+    "page": 9
+  },
+  {
+    "image": "assets/page-10.jpg",
+    "title": "Collection Presentation",
+    "category": "Final fashion looks",
+    "page": 10
+  },
+  {
+    "image": "assets/page-12.jpg",
+    "title": "Floral Inspiration",
+    "category": "Nature-inspired fashion illustration",
+    "page": 12
+  },
+  {
+    "image": "assets/page-13.jpg",
+    "title": "Dress Illustration",
+    "category": "Silhouette & surface exploration",
+    "page": 13
+  },
+  {
+    "image": "assets/page-21.jpg",
+    "title": "Draping Study",
+    "category": "3D garment development",
+    "page": 21
+  },
+  {
+    "image": "assets/page-22.jpg",
+    "title": "Draping Process",
+    "category": "Form and fit exploration",
+    "page": 22
+  },
+  {
+    "image": "assets/page-23.jpg",
+    "title": "Draping Process",
+    "category": "Experimental construction",
+    "page": 23
+  },
+  {
+    "image": "assets/page-24.jpg",
+    "title": "Garment Development",
+    "category": "Draping & construction",
+    "page": 24
+  },
+  {
+    "image": "assets/page-25.jpg",
+    "title": "Draping Outcomes",
+    "category": "Final form exploration",
+    "page": 25
+  },
+  {
+    "image": "assets/page-26.jpg",
+    "title": "Color & Concept Board",
+    "category": "Color-led collection direction",
+    "page": 26
+  },
+  {
+    "image": "assets/page-27.jpg",
+    "title": "Inspiration Board",
+    "category": "Theme and visual development",
+    "page": 27
+  },
+  {
+    "image": "assets/page-29.jpg",
+    "title": "Embroidery Study",
+    "category": "Decorative surface design",
+    "page": 29
+  },
+  {
+    "image": "assets/page-30.jpg",
+    "title": "Embroidery Variations",
+    "category": "Motif development",
+    "page": 30
+  },
+  {
+    "image": "assets/page-31.jpg",
+    "title": "Embroidery Samples",
+    "category": "Handcraft exploration",
+    "page": 31
+  },
+  {
+    "image": "assets/page-32.jpg",
+    "title": "Embroidery Samples",
+    "category": "Motif refinement",
+    "page": 32
+  },
+  {
+    "image": "assets/page-33.jpg",
+    "title": "Embroidery Samples",
+    "category": "Surface experimentation",
+    "page": 33
+  },
+  {
+    "image": "assets/page-34.jpg",
+    "title": "Embroidery Samples",
+    "category": "Pattern variation",
+    "page": 34
+  },
+  {
+    "image": "assets/page-35.jpg",
+    "title": "Embroidery Samples",
+    "category": "Detailed craft study",
+    "page": 35
+  },
+  {
+    "image": "assets/page-37.jpg",
+    "title": "Floral Motif",
+    "category": "Embellishment exploration",
+    "page": 37
+  },
+  {
+    "image": "assets/page-39.jpg",
+    "title": "Decorative Motif",
+    "category": "Color and form study",
+    "page": 39
+  },
+  {
+    "image": "assets/page-41.jpg",
+    "title": "Floral Embroidery",
+    "category": "Textile surface design",
+    "page": 41
+  },
+  {
+    "image": "assets/page-45.jpg",
+    "title": "Print Design",
+    "category": "Repeat and pattern development",
+    "page": 45
+  },
+  {
+    "image": "assets/page-46.jpg",
+    "title": "Color & Print",
+    "category": "Textile pattern exploration",
+    "page": 46
+  },
+  {
+    "image": "assets/page-48.jpg",
+    "title": "T-Shirt Design",
+    "category": "Graphic apparel concepts",
+    "page": 48
+  },
+  {
+    "image": "assets/page-49.jpg",
+    "title": "Dress Design",
+    "category": "Fashion illustration",
+    "page": 49
+  },
+  {
+    "image": "assets/page-50.jpg",
+    "title": "Dress Collection",
+    "category": "Silhouette and print studies",
+    "page": 50
+  },
+  {
+    "image": "assets/page-57.jpg",
+    "title": "Digital Illustration",
+    "category": "Botanical illustration",
+    "page": 57
+  },
+  {
+    "image": "assets/page-58.jpg",
+    "title": "Digital Illustration",
+    "category": "Character-inspired fashion artwork",
+    "page": 58
+  },
+  {
+    "image": "assets/page-59.jpg",
+    "title": "Digital Artwork",
+    "category": "Abstract texture study",
+    "page": 59
+  },
+  {
+    "image": "assets/page-60.jpg",
+    "title": "Digital Artwork",
+    "category": "Abstract composition",
+    "page": 60
+  },
+  {
+    "image": "assets/page-61.jpg",
+    "title": "Digital Illustration",
+    "category": "Floral composition",
+    "page": 61
+  },
+  {
+    "image": "assets/page-62.jpg",
+    "title": "Digital Illustration",
+    "category": "Animal-inspired artwork",
+    "page": 62
+  },
+  {
+    "image": "assets/page-63.jpg",
+    "title": "Digital Illustration",
+    "category": "Floral still life",
+    "page": 63
+  }
+];
+const gallery = document.getElementById('gallery');
+const modal = document.getElementById('modal');
+const modalImg = document.getElementById('modalImg');
+const modalInfo = document.getElementById('modalInfo');
+
+items.forEach((item) => {
+  const card = document.createElement('article');
+  card.className = 'card';
+  card.innerHTML = `<img src="${item.image}" alt="${item.title}" loading="lazy">
+    <div class="card-body"><h3>${item.title}</h3><p>${item.category}</p></div>`;
+  card.onclick = () => {
+    modal.classList.add('open');
+    modalImg.src = item.image;
+    modalImg.alt = item.title;
+    modalInfo.textContent = item.title + ' — ' + item.category;
+  };
+  gallery.appendChild(card);
+});
+document.getElementById('close').onclick = () => modal.classList.remove('open');
+modal.onclick = (e) => { if(e.target === modal) modal.classList.remove('open'); };
+document.addEventListener('keydown', e => { if(e.key === 'Escape') modal.classList.remove('open'); });
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => { if(entry.isIntersecting) entry.target.classList.add('visible'); });
+}, {threshold:.12});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
